@@ -1,11 +1,40 @@
 .algorithm
     background: $beige
     padding: 9.375rem 0
+    &-block
+        display: flex
+        justify-content: space-between
     .col
         &:first-of-type
             max-width: 33.4375rem
+        &:last-of-type
+            max-width: 27.6875rem
     &__upper-title
         margin-bottom: 0.625rem
     &__title
-        max-width: 19.1875rem
-        
+        font-size: 2.5625rem
+        max-width: 29.1875rem
+        margin-bottom: 1.25rem
+    &__text
+        font-size: 1.3125rem
+        margin-bottom: 1.25rem
+    &__button
+        border: 2px solid $secGreen
+        background: transparent
+        padding: 0.4375rem 2.5rem
+    &-step
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        margin-bottom: 4.0625rem
+        &:last-of-type
+            margin-bottom: 0
+        &__img
+            margin-bottom: 1.25rem
+        &__title
+            color: $textDark
+            font-size: 1.4375rem
+            margin-bottom: 0.625rem
+        &__text
+            font-size: 0.9375rem
+            color: $textGrey
